@@ -1,0 +1,53 @@
+body {
+  background-color: #0e141b;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.company {
+  color: #e9b10e;
+}
+
+img {
+  height: 140px;
+  border-radius: 50%;
+  border: 6px solid #e9b10e;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #182635;
+  border-radius: 50%;
+  color: #fff;
+}
