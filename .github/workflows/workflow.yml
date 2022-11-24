@@ -16,4 +16,4 @@ jobs:
         server: ${{ secrets.server }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        local-dir: /www/
+        local-dir: www/
